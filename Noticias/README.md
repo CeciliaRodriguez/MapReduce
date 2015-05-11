@@ -5,8 +5,6 @@
 
 *Se ejecuta:*  ```cat tweets_noticias_35M.json | ./mapper.sh | sort | ./reducer.sh > reduce_result_noticias.txt```
 
-*O bien:*  ```tweets_noticias_35M.json | ./mapper.sh | sort > map_result_noticias.txt```
-           ```cat map_result_noticias.txt | ./reducer.sh > reduce_result_noticias.txt```
 
 * ```cat tweets_noticias_35M.json``` Inserta al pipe el archivo a mapear y reducir en formato json
 * ```./mapper.sh```                  Ejecuta la rutina de "Map"
@@ -15,15 +13,20 @@
 * ```> reduce_result_noticias.txt``` Manda el resultado de la rutina de MapReduce al archivo reduce_result_noticias.txt
 
 
-
-*PARA CORRER EL MAPPER ES NECESARIO INSTALAR  **la última versión** de JQ:*
+*PARA CORRER EL MAPPER ES NECESARIO INSTALAR  la última versión de JQ:*
 
  ```git clone https://github.com/stedolan/jq.git ```
+ 
  ```cd jq```
+ 
  ```autoreconf -i ```
+ 
   ```sudo apt-get install libonig-dev ```
+  
  ```./configure ```
+ 
  ```make ```
+ 
  ```sudo make install ```
  
 
