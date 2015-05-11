@@ -1,7 +1,7 @@
 # MapReduce
 
 
-**MapReduce** para contabilizar por países la negatividad/positividad/neutralidad respecto de un producto/empresa/concepto.
+**MapReduce** para contabilizaar por países la negatividad/positividad/neutralidad respecto de un producto/empresa/concepto.
 
 *Se ejecuta:*  ```cat tweets.json | ./mapper.sh "iphone" | sort | ./reducer.sh > reduce_result_tweets.txt```
 
