@@ -14,7 +14,7 @@
 
 
 
-*PARA CORRER EL MAPPER ES NECESARIO INSTALAR  **la última versión** de JQ:*
+*PARA CORRER EL MAPPER ES NECESARIO INSTALAR  la última versión de JQ:*
 
  ```git clone https://github.com/stedolan/jq.git ```
  
