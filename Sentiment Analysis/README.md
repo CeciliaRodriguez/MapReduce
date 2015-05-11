@@ -7,7 +7,7 @@
 
 *O bien:*  ```tweets.json | ./mapper.sh "iphone" | sort > map_result_tweets.txt```
 
-           ```cat map_result_tweets.txt | ./reducer.sh > reduce_result_tweets.txt```
+           cat map_result_tweets.txt | ./reducer.sh > reduce_result_tweets.txt
 
 * ```cat tweets.json```              Inserta al pipe el archivo a mapear y reducir en formato json
 * ```./mapper.sh "iphone"```         Ejecuta la rutina de "Map" con el parámetro iphone
