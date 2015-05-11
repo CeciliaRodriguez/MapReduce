@@ -19,11 +19,17 @@
 *PARA CORRER EL MAPPER ES NECESARIO INSTALAR  **la última versión** de JQ:*
 
  ```git clone https://github.com/stedolan/jq.git ```
+ 
  ```cd jq```
+ 
  ```autoreconf -i ```
+ 
   ```sudo apt-get install libonig-dev ```
+  
  ```./configure ```
+ 
  ```make ```
+ 
  ```sudo make install ```
  
 
