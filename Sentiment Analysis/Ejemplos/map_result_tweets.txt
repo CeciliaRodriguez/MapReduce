@@ -1,0 +1,5 @@
+"[Arg,Negative]=>iphone sucks"
+"[Arg,Negative]=>iphone sucks"
+"[Arg,Neutral]=>i like iphone, thanks mom"
+"[Arg,Positive]=>i am so lucky and happy with my new iphone"
+"[Bra,Negative]=>i am so sad and bored using iphone"
